@@ -8,6 +8,14 @@ class Song
     @name = name 
   end
   
+  def artist=(artist)
+    @artist = artist 
+  end
+  
+  def genre=(genre)
+    @genre = genre
+  end
+  
   def initialize
     @@song_count += 1 
   end
